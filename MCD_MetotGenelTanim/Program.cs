@@ -10,7 +10,26 @@ namespace MCD_MetotGenelTanim
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Merhaba");
+            Selamla();
 
+
+            Ogrenci o1 = new Ogrenci();
+            o1.ogrenciMetot2();
+            o1.selamlaOgrenci();
+
+            Ogrenci o2 = new Ogrenci();
+            o2.ogrenciMetot2();
+            o2.selamlaOgrenci();
+
+            Console.ReadLine();
         }
+
+        static void Selamla()
+        {
+            Console.WriteLine("Merhaba");
+        }
+
+        
     }
 }
